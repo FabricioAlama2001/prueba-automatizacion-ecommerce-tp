@@ -1,0 +1,88 @@
+import { Country } from '../../src/types/country.types';
+
+export const COUNTRIES: Country[] = [
+    {
+        name: 'Ecuador',
+        isoCode: 'EC',
+        continent: 'LATAM',
+        phonePrefix: '+593',
+        timezone: 'America/Guayaquil',
+    },
+    {
+        name: 'Colombia',
+        isoCode: 'CO',
+        continent: 'LATAM',
+        phonePrefix: '+57',
+        timezone: 'America/Bogota',
+    },
+    {
+        name: 'Argentina',
+        isoCode: 'AR',
+        continent: 'LATAM',
+        phonePrefix: '+54',
+        timezone: 'America/Argentina/Buenos_Aires',
+    },
+    {
+        name: 'Chile',
+        isoCode: 'CL',
+        continent: 'LATAM',
+        phonePrefix: '+56',
+        timezone: 'America/Santiago',
+    },
+    {
+        name: 'El Salvador',
+        isoCode: 'SV',
+        continent: 'LATAM',
+        phonePrefix: '+503',
+        timezone: 'America/El_Salvador',
+    },
+    {
+        name: 'Honduras',
+        isoCode: 'HN',
+        continent: 'LATAM',
+        phonePrefix: '+504',
+        timezone: 'America/Tegucigalpa',
+    },
+    {
+        name: 'Perú',
+        isoCode: 'PE',
+        continent: 'LATAM',
+        phonePrefix: '+51',
+        timezone: 'America/Lima',
+    },
+    {
+        name: 'Estados Unidos',
+        isoCode: 'US',
+        continent: 'NORTH_AMERICA',
+        phonePrefix: '+1',
+        timezone: 'America/New_York',
+    },
+    {
+        name: 'España',
+        isoCode: 'ES',
+        continent: 'EUROPE',
+        phonePrefix: '+34',
+        timezone: 'Europe/Madrid',
+    },
+    {
+        name: 'Alemania',
+        isoCode: 'DE',
+        continent: 'EUROPE',
+        phonePrefix: '+49',
+        timezone: 'Europe/Berlin',
+    },
+    {
+        name: 'Francia',
+        isoCode: 'FR',
+        continent: 'EUROPE',
+        phonePrefix: '+33',
+        timezone: 'Europe/Paris',
+    },
+    {
+        name: 'Nueva Zelanda',
+        isoCode: 'NZ',
+        continent: 'OCEANIA',
+        phonePrefix: '+64',
+        timezone: 'Pacific/Auckland',
+    },
+];
